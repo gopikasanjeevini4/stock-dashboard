@@ -35,18 +35,17 @@ A full-stack real-time stock market dashboard built with Next.js, Node.js, Postg
 
 ## 📁 Project Structure
 
-​```
+```
 stock-dashboard/
 ├── backend/
-│   ├── config/          # DB and Redis config
-│   ├── controllers/     # Route controllers
-│   ├── middleware/      # Auth middleware
-│   ├── routes/          # API routes
-│   ├── .env             # Environment variables
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── routes/
 │   ├── package.json
-│   └── server.js        # Entry point
+│   └── server.js
 ├── frontend/
-│   ├── app/             # Next.js pages
+│   ├── app/
 │   │   ├── dashboard/
 │   │   ├── login/
 │   │   ├── signup/
@@ -54,12 +53,12 @@ stock-dashboard/
 │   │   ├── watchlist/
 │   │   ├── layout.js
 │   │   └── page.js
-│   ├── utils/           # API and auth helpers
+│   ├── utils/
 │   ├── package.json
 │   └── next.config.mjs
 ├── .gitignore
 └── README.md
-​```
+```
 
 ## ⚙️ Setup Instructions
 
